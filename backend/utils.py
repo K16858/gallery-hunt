@@ -20,3 +20,17 @@ def get_random_artwork(json_file_path):
         return None
 
     return random.choice(artworks)
+
+
+def get_artwork_info(json_file_path):
+    """
+    指定されたJSONファイルからランダムな作品の情報を取得し、フォーマットされた文字列として返す
+    """
+    artwork = get_random_artwork(json_file_path)
+    artwork_info = ""
+    if artwork:
+        for key, value in artwork.items():
+            artwork_info += f"{key}: {value}\n"
+    else:
+        artwork_info = "作品情報の取得に失敗しました。"
+    return artwork_info.strip()
