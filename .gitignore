@@ -1,0 +1,3 @@
+/backend/test.py
+/backend/model/*.gguf
+__pycache__
