@@ -49,7 +49,7 @@ Gallery-Hunt/
 
 ### 1. リポジトリのクローン
 ```bash
-git clone <repository-url>
+git clone https://github.com/K16858/gallery-hunt
 cd museum-llm
 ```
 
