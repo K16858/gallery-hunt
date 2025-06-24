@@ -130,8 +130,8 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>美術館クイズチャット</h1>
-        <p>美術作品を当てるクイズに挑戦しよう！</p>
+        <h1>Gallery Hunt</h1>
+        <p>美術館を巡りながら作品を当てるクイズに挑戦しよう！</p>
       </header>
 
       <main className="app-main">
@@ -140,7 +140,7 @@ function App() {
             <div className="welcome-content">
               <h2>ようこそ！</h2>
               <p>美術館の作品を当てるクイズゲームです。</p>
-              <p>クイズを生成して、AIとの対話で正解を目指しましょう！</p>
+              <p>クイズを生成して、AIと対話しながら、正解の作品を探しましょう！</p>
               <button 
                 className="start-button"
                 onClick={generateQuiz}
